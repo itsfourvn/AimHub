@@ -1,11 +1,7 @@
+<!-- HEADER SECTION -->
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00aaff,100:0055ff&height=180&section=header&text=ITSFOUR%20HUB&fontSize=40&fontColor=ffffff&fontAlignY=35&desc=Universal%20Aimbot%20%26%20ESP%20Module%20for%20Roblox&descSize=15&descAlignY=60" width="100%" alt="ITSFOUR HUB"/>
-
-  <br>
-
-  [🇻🇳 **Tiếng Việt**](#tieng-viet) · [🇬🇧 **English**](#english)
-
-  <br>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00aaff,100:0055ff&height=180&section=header&text=AIM%20HUB&fontSize=40&fontColor=ffffff&fontAlignY=35&desc=Universal%20Aimbot%20&%20ESP%20Module%20for%20Roblox&descSize=15&descAlignY=60" width="100%"/>
+    <br>
 
   ![Release](https://img.shields.io/badge/Release-v3.0-00aaff?style=for-the-badge&logo=github)
   ![Roblox](https://img.shields.io/badge/Roblox-Script-00A2FF?style=for-the-badge&logo=roblox&logoColor=white)
@@ -13,11 +9,20 @@
   ![Lua](https://img.shields.io/badge/Language-Lua-000080?style=for-the-badge&logo=lua&logoColor=white)
 </div>
 
+<div align="center">
+<img src="https://github.com/itsfourvn/itsfourvn/blob/main/generated/itsfourvn.svg" width="250"  alt="itsfourvn animated name">
+
+<br>⚙️Language: <a href="#tieng-viet"> <strong><img src="https://flagcdn.com/w40/vn.png" width="20" alt="Vietnam flag"/></strong></a>  ·  <strong><a href="#english"><img src="https://flagcdn.com/w40/gb.png" width="23" alt="UK flag"/></strong></a>
+###### *(click the flag to change language / nhấn cờ để đổi ngôn ngữ)*
+
+
+</div>
+
 ---
-
 <a id="tieng-viet"></a>
-# 🇻🇳 Tiếng Việt
+# <strong><img src="https://flagcdn.com/w40/vn.png" width="30" alt="Vietnam flag"/> Tiếng Việt
 
+<div align="center"><br>
 ## 📖 Giới thiệu
 
 **ITSFOUR HUB** là script Lua cho Roblox, được phát triển bởi **itsfour**. Script cung cấp giao diện tùy chỉnh để cấu hình Aimbot, Triggerbot và các tính năng hiển thị như FOV, Tracer và ESP.
@@ -115,11 +120,10 @@ Chỉ gửi thông tin cần thiết; không đính kèm cookie, token hoặc d�
 Copyright © 2026 itsfour. All rights reserved.
 
 Hãy đọc tệp [`LICENSE`](LICENSE) trong repository để biết các điều khoản áp dụng. Không nên tuyên bố giấy phép MIT hoặc CC0 cùng lúc nếu repository chưa xác định rõ giấy phép chính thức.
-
 ---
 
 <a id="english"></a>
-# 🇬🇧 English
+# <img src="https://flagcdn.com/w40/gb.png" width="30" alt="UK flag"/> English
 
 ## 📖 Introduction
 
