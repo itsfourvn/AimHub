@@ -16,7 +16,7 @@
 <br>· *This project is currently in beta testing. Feel free to create pull requests (you will be credited), report issues, or contact me through any of my linked platforms.*
 
 ---
-⚙️Language
+**⚙️Language**
 <details><summary><a id="tieng-viet"></a> <img src="https://flagcdn.com/w40/vn.png" width="20" alt="Vietnam flag"/> Tiếng Việt</summary>
 
 ## ✨ Tính năng
