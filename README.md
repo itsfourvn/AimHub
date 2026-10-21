@@ -13,52 +13,48 @@
 <img src="https://github.com/itsfourvn/itsfourvn/blob/main/generated/itsfourvn.svg" width="250"  alt="itsfourvn animated name">
 
 · **`UI CONFIG`** **`Aimbot`** **`Triggerbot`** **`FOV`** **`TRACERS`** **`ESP`** **`DOT`** **`other features`** ·
----
-<br>· `This project is currently in beta testing. Feel free to create pull requests (you will be credited), report issues, or contact me through any of my linked platforms.`
+<br>· *This project is currently in beta testing. Feel free to create pull requests (you will be credited), report issues, or contact me through any of my linked platforms.*
 
-<br>⚙️Language: <a href="#tieng-viet"> <strong><img src="https://flagcdn.com/w40/vn.png" width="20" alt="Vietnam flag"/></strong></a>     ·     <strong><a href="#english"><img src="https://flagcdn.com/w40/gb.png" width="23" alt="UK flag"/></strong></a>
-###### *(click the flag to change language / nhấn cờ để đổi ngôn ngữ)*
+---
+⚙️Language
 <details><summary><a id="tieng-viet"></a> <img src="https://flagcdn.com/w40/vn.png" width="20" alt="Vietnam flag"/> Tiếng Việt</summary>
 
 ## ✨ Tính năng
 
 ### 🎯 Aimbot
-- Bật/tắt Aimbot và chọn bộ phận khóa mục tiêu: `Head`, `HumanoidRootPart` hoặc `Torso`.
-- Tùy chọn kiểm tra team, trạng thái còn sống và vật cản.
-- Điều chỉnh độ mượt khi khóa mục tiêu và độ nhạy điều khiển chuột.
-- Tùy chọn bù hướng di chuyển (`OffsetToMoveDirection`) và điều chỉnh mức bù.
-- Hỗ trợ các chế độ điều khiển camera/chuột được triển khai trong mã nguồn.
+ Bật/tắt Aimbot và chọn bộ phận khóa mục tiêu: `Head`, `HumanoidRootPart` hoặc `Torso`.
+ Tùy chọn kiểm tra team, trạng thái còn sống và vật cản.
+ Điều chỉnh độ mượt khi khóa mục tiêu và độ nhạy điều khiển chuột.
+ Tùy chọn bù hướng di chuyển (`OffsetToMoveDirection`) và điều chỉnh mức bù.
+ Hỗ trợ các chế độ điều khiển camera/chuột được triển khai trong mã nguồn.
 
 ### 🔫 Triggerbot
-- Bật/tắt Triggerbot.
-- Tùy chọn kiểm tra team, trạng thái còn sống và chỉ kích hoạt khi đã khóa mục tiêu.
-- Điều chỉnh độ trễ trước khi kích hoạt.
-- Cần executor hỗ trợ các hàm mô phỏng chuột tương ứng; nếu thiếu, Triggerbot có thể không hoạt động.
+ Bật/tắt Triggerbot.
+ Tùy chọn kiểm tra team, trạng thái còn sống và chỉ kích hoạt khi đã khóa mục tiêu.
+ Điều chỉnh độ trễ trước khi kích hoạt.
+ Cần executor hỗ trợ các hàm mô phỏng chuột tương ứng; nếu thiếu, Triggerbot có thể không hoạt động.
 
 ### 👁️ Visuals: FOV, Tracer và ESP
-- **FOV:** bật/tắt vòng FOV, điều chỉnh bán kính và màu sắc.
-- **Tracer:** hiển thị đường đến mục tiêu gần nhất, tùy chỉnh màu và vị trí xuất phát.
-- **ESP:** tùy chọn chấm trên đầu, tên hiển thị, khoảng cách, kích thước chữ và màu sắc.
-- Tùy chọn lọc đồng đội cho ESP.
+ **FOV:** bật/tắt vòng FOV, điều chỉnh bán kính và màu sắc.
+ **Tracer:** hiển thị đường đến mục tiêu gần nhất, tùy chỉnh màu và vị trí xuất phát.
+ **ESP:** tùy chọn chấm trên đầu, tên hiển thị, khoảng cách, kích thước chữ và màu sắc.
+ Tùy chọn lọc đồng đội cho ESP.
 
 ### 🎨 Giao diện và tiện ích
-- Giao diện Glass UI có thể kéo thả.
-- Nhấn **RightShift** để ẩn/hiện menu.
-- Nút **EN/VN** chuyển đổi ngôn ngữ ngay trong GUI.
-- Tự lưu một số thiết lập vào `itsfour_auto_config.json` nếu executor hỗ trợ các hàm đọc/ghi file.
-- Các thiết lập được lưu không bao gồm mọi thuộc tính giao diện; một số thay đổi có thể không được khôi phục.
+ Giao diện Glass UI có thể kéo thả.
+ Nhấn **RightShift** để ẩn/hiện menu.
+ Nút **EN/VN** chuyển đổi ngôn ngữ ngay trong GUI.
+ Tự lưu một số thiết lập vào `itsfour_auto_config.json` nếu executor hỗ trợ các hàm đọc/ghi file.
+ Các thiết lập được lưu không bao gồm mọi thuộc tính giao diện; một số thay đổi có thể không được khôi phục.
 
 ## 🚀 Cài đặt / Khởi chạy
 
-1. Đưa file script lên repository của bạn.
-2. Sao chép **Raw URL** chính xác của file Lua.
-3. Thay URL mẫu bên dưới bằng Raw URL của bạn rồi chạy trong môi trường phù hợp.
+Trước hết, để triển khai mô-đun trong môi trường kịch bản của bạn, bạn phải sử dụng hàm loadstring như sau:
 
 ```lua
-loadstring(game:HttpGet("YOUR_RAW_URL_HERE"))()
+loadstring(game:HttpGet(https://raw.githubusercontent.com/itsfourvn/AimHub/main/src/Aimbot.lua))()
 ```
 
-`YOUR_RAW_URL_HERE` chỉ là chỗ giữ chỗ, không phải URL có thể chạy trực tiếp.
 
 ## ⌨️ Điều khiển mặc định
 
@@ -74,13 +70,13 @@ Aimbot mặc định dùng chế độ giữ phím (`Toggle = false`). Các thi�
 
 Khả năng hoạt động phụ thuộc vào executor và API mà môi trường đó cung cấp. Mã nguồn sử dụng hoặc tùy chọn sử dụng một số API sau:
 
-- `Drawing.new` để vẽ FOV, Tracer và thành phần ESP.
-- `getgenv` để lưu bảng cấu hình trong môi trường thực thi.
-- `getrawmetatable` cùng các hàm thao tác thuộc tính tương ứng.
-- `mousemoverel` hoặc `Input.MouseMove` cho một chế độ điều khiển chuột.
-- `mousemoveabs` cho chế độ di chuyển chuột tuyệt đối (nếu có).
-- `mouse1press`, `mouse1release`, `mouse1click` cho Triggerbot.
-- `readfile`, `writefile`, `isfile` để lưu/đọc cấu hình (tùy chọn).
+ `Drawing.new` để vẽ FOV, Tracer và thành phần ESP.
+ `getgenv` để lưu bảng cấu hình trong môi trường thực thi.
+ `getrawmetatable` cùng các hàm thao tác thuộc tính tương ứng.
+ `mousemoverel` hoặc `Input.MouseMove` cho một chế độ điều khiển chuột.
+ `mousemoveabs` cho chế độ di chuyển chuột tuyệt đối (nếu có).
+ `mouse1press`, `mouse1release`, `mouse1click` cho Triggerbot.
+ `readfile`, `writefile`, `isfile` để lưu/đọc cấu hình (tùy chọn).
 
 Nếu executor thiếu API cần thiết, một số tính năng có thể không chạy hoặc script có thể gặp lỗi. Khả năng tương thích chưa được xác nhận trên mọi executor.
 
@@ -97,10 +93,10 @@ Cấu hình có thể bao gồm các nhóm Aimbot, Triggerbot, Tracer, ESP, mộ
 ## 🐛 Báo lỗi và đóng góp
 
 Nếu gặp lỗi, hãy gửi:
-- Tên executor và nền tảng đang sử dụng.
-- Thông báo lỗi đầy đủ.
-- Các bước tái hiện lỗi.
-- Tính năng và thiết lập đang bật khi lỗi xảy ra.
+ Tên executor và nền tảng đang sử dụng.
+ Thông báo lỗi đầy đủ.
+ Các bước tái hiện lỗi.
+ Tính năng và thiết lập đang bật khi lỗi xảy ra.
 
 Chỉ gửi thông tin cần thiết; không đính kèm cookie, token hoặc dữ liệu tài khoản cá nhân.
 
@@ -116,42 +112,39 @@ Chỉ gửi thông tin cần thiết; không đính kèm cookie, token hoặc d�
 ## ✨ Features
 
 ### 🎯 Aimbot
-- Enable or disable Aimbot and choose a target part: `Head`, `HumanoidRootPart`, or `Torso`.
-- Optional team, alive-state, and visibility/wall checks.
-- Adjust target-lock smoothing and mouse-control sensitivity.
-- Optional movement-direction offset with an adjustable offset amount.
-- Supports the camera/mouse control modes implemented in the source.
+ Enable or disable Aimbot and choose a target part: `Head`, `HumanoidRootPart`, or `Torso`.
+ Optional team, alive-state, and visibility/wall checks.
+ Adjust target-lock smoothing and mouse-control sensitivity.
+ Optional movement-direction offset with an adjustable offset amount.
+ Supports the camera/mouse control modes implemented in the source.
 
 ### 🔫 Triggerbot
-- Enable or disable Triggerbot.
-- Optional team check, alive check, and aim-locked-only condition.
-- Configurable activation delay.
-- Requires an executor that supports the relevant mouse simulation functions; without them, Triggerbot may not work.
+ Enable or disable Triggerbot.
+ Optional team check, alive check, and aim-locked-only condition.
+ Configurable activation delay.
+ Requires an executor that supports the relevant mouse simulation functions; without them, Triggerbot may not work.
 
 ### 👁️ Visuals: FOV, Tracer, and ESP
-- **FOV:** enable/disable the FOV circle and adjust its radius and color.
-- **Tracer:** draw a line to the closest target and customize its color and origin.
-- **ESP:** configure head dots, display names, distances, text sizes, and colors.
-- Optional teammate filtering for ESP.
+ **FOV:** enable/disable the FOV circle and adjust its radius and color.
+ **Tracer:** draw a line to the closest target and customize its color and origin.
+ **ESP:** configure head dots, display names, distances, text sizes, and colors.
+ Optional teammate filtering for ESP.
 
 ### 🎨 Interface and utilities
-- Draggable Glass UI.
-- Press **RightShift** to show or hide the menu.
-- The **EN/VN** button switches the interface language in-place.
-- Saves some settings to `itsfour_auto_config.json` if the executor supports file read/write APIs.
-- Not every interface property is persisted, so some changes may not be restored.
+ Draggable Glass UI.
+ Press **RightShift** to show or hide the menu.
+ The **EN/VN** button switches the interface language in-place.
+ Saves some settings to `itsfour_auto_config.json` if the executor supports file read/write APIs.
+ Not every interface property is persisted, so some changes may not be restored.
 
 ## 🚀 Setup / Launch
 
-1. Upload the script file to your repository.
-2. Copy the exact **Raw URL** for the Lua file.
-3. Replace the placeholder URL below with your Raw URL, then run it in a compatible environment.
+First of all, to implement the module in your script's environment you must use the function loadstring like below:
 
 ```lua
-loadstring(game:HttpGet("YOUR_RAW_URL_HERE"))()
+loadstring(game:HttpGet(https://raw.githubusercontent.com/itsfourvn/AimHub/main/src/Aimbot.lua))()
 ```
 
-`YOUR_RAW_URL_HERE` is a placeholder, not a working URL.
 
 ## ⌨️ Default controls
 
