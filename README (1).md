@@ -12,22 +12,13 @@
 <div align="center">
 <img src="https://github.com/itsfourvn/itsfourvn/blob/main/generated/itsfourvn.svg" width="250"  alt="itsfourvn animated name">
 
-<br>⚙️Language: <a href="#tieng-viet"> <strong><img src="https://flagcdn.com/w40/vn.png" width="20" alt="Vietnam flag"/></strong></a>  ·  <strong><a href="#english"><img src="https://flagcdn.com/w40/gb.png" width="23" alt="UK flag"/></strong></a>
-###### *(click the flag to change language / nhấn cờ để đổi ngôn ngữ)*
-
-
-</div>
-
+· **`UI CONFIG`** **`Aimbot`** **`Triggerbot`** **`FOV`** **`TRACERS`** **`ESP`** **`DOT`** **`other features`** ·
 ---
-<a id="tieng-viet"></a>
-# <strong><img src="https://flagcdn.com/w40/vn.png" width="30" alt="Vietnam flag"/> Tiếng Việt
+<br>· `This project is currently in beta testing. Feel free to create pull requests (you will be credited), report issues, or contact me through any of my linked platforms.`
 
-<div align="center"><br>
-## 📖 Giới thiệu
-
-**ITSFOUR HUB** là script Lua cho Roblox, được phát triển bởi **itsfour**. Script cung cấp giao diện tùy chỉnh để cấu hình Aimbot, Triggerbot và các tính năng hiển thị như FOV, Tracer và ESP.
-
-> **Lưu ý về phạm vi:** Theo mã nguồn hiện tại, ESP duyệt danh sách `Players` của Roblox. Không nên quảng bá hỗ trợ NPC cho đến khi chức năng NPC thực sự được triển khai và kiểm thử.
+<br>⚙️Language: <a href="#tieng-viet"> <strong><img src="https://flagcdn.com/w40/vn.png" width="20" alt="Vietnam flag"/></strong></a>     ·     <strong><a href="#english"><img src="https://flagcdn.com/w40/gb.png" width="23" alt="UK flag"/></strong></a>
+###### *(click the flag to change language / nhấn cờ để đổi ngôn ngữ)*
+<details><summary><a id="tieng-viet"></a> <img src="https://flagcdn.com/w40/vn.png" width="20" alt="Vietnam flag"/> Tiếng Việt</summary>
 
 ## ✨ Tính năng
 
@@ -113,17 +104,8 @@ Nếu gặp lỗi, hãy gửi:
 
 Chỉ gửi thông tin cần thiết; không đính kèm cookie, token hoặc dữ liệu tài khoản cá nhân.
 
-## 📜 Bản quyền
-
-**Developer:** [itsfour](https://github.com/itsfourvn)
-
-Copyright © 2026 itsfour. All rights reserved.
-
-Hãy đọc tệp [`LICENSE`](LICENSE) trong repository để biết các điều khoản áp dụng. Không nên tuyên bố giấy phép MIT hoặc CC0 cùng lúc nếu repository chưa xác định rõ giấy phép chính thức.
----
-
-<a id="english"></a>
-# <img src="https://flagcdn.com/w40/gb.png" width="30" alt="UK flag"/> English
+</details>
+<details> <summary> <a id="english"></a> <img src="https://flagcdn.com/w40/gb.png" width="20" alt="UK flag"/> English</summary>
 
 ## 📖 Introduction
 
@@ -214,11 +196,13 @@ When reporting a problem, include:
 - The feature and settings enabled when the issue occurred.
 
 Share only relevant diagnostic information. Do not attach cookies, tokens, or personal account data.
-
-## 📜 Copyright
+　</details>
+ 
+---
 
 **Developer:** [itsfour](https://github.com/itsfourvn)
 
 Copyright © 2026 itsfour. All rights reserved.
 
 See the repository's [`LICENSE`](LICENSE) file for the applicable terms. Avoid claiming both MIT and CC0 unless the repository clearly defines its official licensing.
+
