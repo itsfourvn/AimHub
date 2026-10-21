@@ -52,7 +52,7 @@
 Trước hết, để triển khai mô-đun trong môi trường kịch bản của bạn, bạn phải sử dụng hàm loadstring như sau:
 
 ```lua
-loadstring(game:HttpGet(https://raw.githubusercontent.com/itsfourvn/AimHub/refs/heads/main/scr/Aimbot.lua))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/itsfourvn/AimHub/main/scr/Aimbot.lua"))()
 ```
 
 
@@ -142,7 +142,7 @@ Chỉ gửi thông tin cần thiết; không đính kèm cookie, token hoặc d�
 First of all, to implement the module in your script's environment you must use the function loadstring like below:
 
 ```lua
-loadstring(game:HttpGet(https://raw.githubusercontent.com/itsfourvn/AimHub/refs/heads/main/scr/Aimbot.lua))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/itsfourvn/AimHub/main/scr/Aimbot.lua"))()
 ```
 
 
